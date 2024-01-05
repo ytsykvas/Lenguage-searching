@@ -1,25 +1,49 @@
-# README
+# Programming Languages Search Project
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This project, built on the Ruby on Rails framework, aims to facilitate the search and filtering of information about programming languages stored in JSON format.
 
-Things you may want to cover:
+## Requirements
 
-* Ruby version
+- Ruby 3.2.2
+- Rails 7.1.2
 
-* System dependencies
+## Installation
 
-* Configuration
+1. Clone the repository to your local machine:
 
-* Database creation
+   ```bash
+   git clone [repository URL]
 
-* Database initialization
+2. Install dependencies:
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
+   ```bash
+   bundle install
 
-* Deployment instructions
+3. Start the Rails server:
 
-* ...
-# Lenguage-searching
+
+   ```bash
+   rails server
+
+4. Open a web browser and go to http://localhost:3000 to use the application.
+
+## Running Tests
+
+To run RSpec tests, use the following command:
+
+
+   ```bash
+   bundle exec rspec
+
+## Dependencies
+1) Rails 7.1.2: Web framework for development.
+2) puma: Web server.
+3) importmap-rails: Import map for JavaScript.
+4) jbuilder: Building JSON APIs.
+5) bootstrap, sassc-rails: Styling.
+6) slim-rails: SLIM views.
+7) rubocop: Code cleanliness.
+8) jquery-rails: jQuery for JavaScript.
+9) kaminari, will_paginate for pagination.
+10) rspec-rails for test coverage of cases from task.
