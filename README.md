@@ -34,16 +34,3 @@ To run RSpec tests, use the following command:
 
    ```bash
    rails server
-
-## Dependencies
-
-* Rails 7.1.2: Web framework for development.
-* puma: Web server.
-* importmap-rails: Import map for JavaScript.
-* jbuilder: Building JSON APIs.
-* bootstrap, sassc-rails: Styling.
-* slim-rails: SLIM views.
-* rubocop: Code cleanliness.
-* jquery-rails: jQuery for JavaScript.
-* kaminari, will_paginate for pagination.
-* rspec-rails for test coverage of cases from task.
