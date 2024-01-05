@@ -1,0 +1,12 @@
+table.table.table-striped.mt-3
+  thead
+    tr
+      th Name
+      th Type
+      th Designed by
+  tbody
+    - @data.each do |item|
+      tr
+        td = item['Name']
+        td = item['Type']
+        td = item['Designed by']

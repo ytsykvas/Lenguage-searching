@@ -1,0 +1,9 @@
+h1 Programming Languages Search
+
+= form_for :search, method: :get, remote: false do |f|
+  = f.search_field :query, placeholder: 'Enter searching request'
+  = f.submit 'Go', class: 'btn btn-success ml-2'
+
+= render 'shared/table', data: @data
+.pagination
+  = will_paginate @data

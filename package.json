@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "@rails/ujs": "^7.1.2",
+    "bootstrap": "^5.3.2",
+    "jquery": "^3.7.1"
+  },
+  "devDependencies": {
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.3.3"
+  },
+  "name": "ProgrammingLanguagesSearch",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Yurii Tsykvas <tsykvasyurii@gmail.com>",
+  "license": "MIT"
+}
