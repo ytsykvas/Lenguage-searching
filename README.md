@@ -28,6 +28,18 @@ This project, built on the Ruby on Rails framework, aims to facilitate the searc
 
 4. Open a web browser and go to http://localhost:3000 to use the application.
 
+## Dependencies
+- Rails 7.1.2: Web framework for development.
+- puma: Web server.
+- importmap-rails: Import map for JavaScript.
+- jbuilder: Building JSON APIs.
+- bootstrap, sassc-rails: Styling.
+- slim-rails: SLIM views.
+- rubocop: Code cleanliness.
+- jquery-rails: jQuery for JavaScript.
+- kaminari, will_paginate: Pagination.
+- rspec-rails for test coverage.
+
 ## Running Tests
 All cases specified in the project task are covered by the tests.
 To run RSpec tests, use the following command:
