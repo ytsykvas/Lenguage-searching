@@ -32,19 +32,18 @@ This project, built on the Ruby on Rails framework, aims to facilitate the searc
 
 To run RSpec tests, use the following command:
 
-
    ```bash
-   bundle exec rspec
+   rails server
 
 ## Dependencies
 
-1. Rails 7.1.2: Web framework for development.
-2. puma: Web server.
-3. importmap-rails: Import map for JavaScript.
-4. jbuilder: Building JSON APIs.
-5. bootstrap, sassc-rails: Styling.
-6. slim-rails: SLIM views.
-7. rubocop: Code cleanliness.
-8. jquery-rails: jQuery for JavaScript.
-9. kaminari, will_paginate for pagination.
-10. rspec-rails for test coverage of cases from task.
+* Rails 7.1.2: Web framework for development.
+* puma: Web server.
+* importmap-rails: Import map for JavaScript.
+* jbuilder: Building JSON APIs.
+* bootstrap, sassc-rails: Styling.
+* slim-rails: SLIM views.
+* rubocop: Code cleanliness.
+* jquery-rails: jQuery for JavaScript.
+* kaminari, will_paginate for pagination.
+* rspec-rails for test coverage of cases from task.
