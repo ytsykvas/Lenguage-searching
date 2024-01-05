@@ -36,6 +36,7 @@ To run RSpec tests, use the following command:
    ```bash
    bundle exec rspec
 
+
 ## Dependencies
 1) Rails 7.1.2: Web framework for development.
 2) puma: Web server.
