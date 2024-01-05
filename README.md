@@ -12,7 +12,7 @@ This project, built on the Ruby on Rails framework, aims to facilitate the searc
 1. Clone the repository to your local machine:
 
    ```bash
-   git clone [repository URL]
+   git clone git@github.com:ytsykvas/Lenguage-searching.git
 
 2. Install dependencies:
 
