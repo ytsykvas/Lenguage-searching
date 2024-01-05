@@ -29,7 +29,7 @@ This project, built on the Ruby on Rails framework, aims to facilitate the searc
 4. Open a web browser and go to http://localhost:3000 to use the application.
 
 ## Running Tests
-
+All cases specified in the project task are covered by the tests.
 To run RSpec tests, use the following command:
 
    ```bash
