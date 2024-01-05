@@ -33,4 +33,4 @@ This project, built on the Ruby on Rails framework, aims to facilitate the searc
 To run RSpec tests, use the following command:
 
    ```bash
-   rails server
+   bundle exec rspec
